@@ -1,12 +1,6 @@
 
 <div class="jumbotron">
-			<script type="text/javascript">
-    $(function() {
-        $('.carousel').carousel({
-            interval: 5000
-        });
-    });
-</script>
+			<h1>Teste Site</h1>
 		</div>
 
 

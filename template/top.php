@@ -1,5 +1,5 @@
 <?php 
-        include 'include/bootstrap.php';
+        include_once 'include/bootstrap.php'
 ?>
 <!DOCTYPE html>
 <html lang="en">

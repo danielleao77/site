@@ -5,7 +5,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Teste</title>
+        <title>CV Online</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
@@ -23,26 +23,15 @@
 <body>
 
     <div class="container">
-       	<ul class="nav nav-tabs">
-    		<li class=""><a href="index.php">HOME</a></li>
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+       	<ul class="nav nav-pills">
+    		<li class=""><a href="index.php">Home</a></li>
     		<li class=""><a href="sobre.php">Sobre</a></li>
-    		<li class=""><a href="login.php">LogIn</a></li>
-    	
-        	<div class="btn-group">
-          <button type="button" class="btn btn-danger">action</button>
-          <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
-            <span class="caret"></span>
-            <span class="sr-only">Toggle Dropdown</span>
-          </button>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </div>
-        </ul>
+    		<li class="" ><a href="login.php" >LogIn</a></li>
+    
+
+    	</ul>
+    </nav>
 
 
  

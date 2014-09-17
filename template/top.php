@@ -27,8 +27,22 @@
     		<li class=""><a href="index.php">HOME</a></li>
     		<li class=""><a href="sobre.php">Sobre</a></li>
     		<li class=""><a href="login.php">LogIn</a></li>
-    	</ul>
-
+    	
+        	<div class="btn-group">
+          <button type="button" class="btn btn-danger">action</button>
+          <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+            <span class="caret"></span>
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </div>
+        </ul>
 
 
  

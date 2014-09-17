@@ -27,6 +27,7 @@
        	<ul class="nav nav-pills">
     		<li class=""><a href="index.php">Home</a></li>
     		<li class=""><a href="sobre.php">Sobre</a></li>
+    		<li class="" ><a href="contato.php" >Contato</a></li>
     		<li class="" ><a href="login.php" >LogIn</a></li>
     
 

@@ -1,5 +1,5 @@
 <?php
-require_once '/template/top.php';
+require_once 'template/top.php';
 ?>
 
 <!DOCTYPE html>
@@ -11,7 +11,7 @@ require_once '/template/top.php';
     <body>
     <div class="container-full">
         <div class="jumbotron">
-        <form class="form-horizontal" action="src/enviaEmail.php" method="POST">
+        <form class="form-horizontal" action="phpmailer/enviaEmail.php" method="POST">
                <fieldset>
                     <legend><h4>Envie-me um email</h4></legend>
                         <div class="form-group">

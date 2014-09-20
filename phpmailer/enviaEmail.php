@@ -1,7 +1,7 @@
 <?php 
 
 // Inclui o arquivo class.phpmailer.php localizado na pasta phpmailer
-require("../phpmailer/class.phpmailer.php");
+require 'PHPMailerAutoload.php';
 
 // Inicia a classe PHPMailer
 $mail = new PHPMailer();
@@ -9,21 +9,21 @@ $mail = new PHPMailer();
 // Define os dados do servidor e tipo de conexão
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 $mail->IsSMTP(); // Define que a mensagem será SMTP
-//$mail->Host = "localhost"; // Endereço do servidor SMTP (caso queira utilizar a autenticação, utilize o host smtp.seudomínio.com.br)
+$mail->Host = "localhost"; // Endereço do servidor SMTP (caso queira utilizar a autenticação, utilize o host smtp.seudomínio.com.br)
 $mail->SMTPAuth = true; // Usar autenticação SMTP (obrigatório para smtp.seudomínio.com.br)
 $mail->Username = 'contato@dsl.esy.es'; // Usuário do servidor SMTP (endereço de email)
 $mail->Password = 'zaq12wsx'; // Senha do servidor SMTP (senha do email usado)
 
 // Define o remetente
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-$mail->From = "seu@e-mail.com.br"; // Seu e-mail
-$mail->Sender = "seu@e-mail.com.br"; // Seu e-mail
-$mail->FromName = "Locaweb"; // Seu nome
+$mail->From = "contato@dsl.esy.es"; // Seu e-mail
+$mail->Sender = "contato@dsl.esy.es"; // Seu e-mail
+$mail->FromName = "Daniel"; // Seu nome
 
 // Define os destinatário(s)
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-$mail->AddAddress('e-mail@destino.com.br', 'Teste Locaweb');
-$mail->AddAddress('e-mail@destino2.com.br');
+$mail->AddAddress('daniel.leao77@gmail.com');
+//$mail->AddAddress('e-mail@destino2.com.br');
 //$mail->AddCC('ciclano@site.net', 'Ciclano'); // Copia
 //$mail->AddBCC('fulano@dominio.com.br', 'Fulano da Silva'); // Cópia Oculta
 

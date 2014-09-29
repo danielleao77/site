@@ -18,7 +18,7 @@ class Banco
 
     protected function conectar()
     {
-        $this->conexao = new PDO('mysql:host=localhost; dbname=test', 'root', '');
+        $this->conexao = new PDO('mysql:host=mysql.hostinger.com.br; dbname=u880744280_dsl', 'u880744280_dsl', 'zaq12wsx');
         PDO::ERRMODE_EXCEPTION;
     }
 
@@ -26,5 +26,10 @@ class Banco
     {
         $statement = $this->conexao->prepare($sql);
         $statement->execute();
+    }
+
+    protected function verificaLogin(){
+
+        
     }
 }

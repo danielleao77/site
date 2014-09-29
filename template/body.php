@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        
         
     </head>
             <div class="container-full">
@@ -11,12 +11,12 @@
                         <img src="img/IMG-EU.jpg" class="img-responsive , img-thumbnail" 
                         alt="Responsive image" height="142" width="100" style="float:right">
                    </div>
-                    <h2>Daniel de Souza Le&atildeo</h2>
+                    <h2>Daniel de Souza Leão</h2>
                     <div class="row">
-                        <div class="col-md-4"><h4>Voc&ecirc esta acessando meu Curriculo Online.</h4>
+                        <div class="col-md-4"><h4>Voçê esta acessando meu Curriculo Online.</h4>
                             <div class="col-md-20"><h5>Sou um profissional prestativo, com foco em minhas metas,
                                                        comunicativo, com vontade de aprender e ensinar.<br>
-                                                       Tento sempre que poss&iacutevel, propor a empresa o melhor que eu posso realizar, 
+                                                       Tento sempre que possível, propor a empresa o melhor que eu posso realizar, 
                                                        cumprindo metas, terminando projetos e qualquer outra coisa imposta a minha pessoa.
                                                        </h5></div>
                         </div>

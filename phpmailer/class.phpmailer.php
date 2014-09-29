@@ -305,7 +305,7 @@ class PHPMailer
      * @type integer
      * @see SMTP::$do_debug
      */
-    public $SMTPDebug = 0;
+    public $SMTPDebug = 1;
 
     /**
      * How to handle debug output.
@@ -700,7 +700,7 @@ class PHPMailer
         $ini_sendmail_path = ini_get('sendmail_path');
 
         if (!stristr($ini_sendmail_path, 'sendmail')) {
-            $this->Sendmail = '/usr/sbin/sendmail';
+            $this->Sendmail = '/usr/sbin/sendmail -t -i';
         } else {
             $this->Sendmail = $ini_sendmail_path;
         }

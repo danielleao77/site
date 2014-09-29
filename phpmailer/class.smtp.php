@@ -42,7 +42,7 @@ class SMTP
      * The SMTP port to use if one is not specified.
      * @type integer
      */
-    const DEFAULT_SMTP_PORT = 25;
+    const DEFAULT_SMTP_PORT = 587;
 
     /**
      * The maximum line length allowed by RFC 2822 section 2.1.1
@@ -64,7 +64,7 @@ class SMTP
      * @deprecated This is only ever used as a default value, so use the `DEFAULT_SMTP_PORT` constant instead
      * @see SMTP::DEFAULT_SMTP_PORT
      */
-    public $SMTP_PORT = 25;
+    public $SMTP_PORT = 465;
 
     /**
      * SMTP reply line ending.

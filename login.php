@@ -48,8 +48,8 @@ if ($_POST) {
      
     }
     print_r($obj);
-   echo $email;
-echo $senha; 
+    
+    print_r($_POST);
 }
 
 

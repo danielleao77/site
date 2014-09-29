@@ -1,5 +1,7 @@
 <?php 
-        include_once 'include/bootstrap.php'
+    header("Content-Type: text/html; charset=ISO-8859-1", true);
+    include_once 'include/bootstrap.php';
+    include_once 'banco/consutas_banco.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
